@@ -1,0 +1,310 @@
+###############################################################################
+# LaTeX
+###############################################################################
+
+# Core LaTeX auxiliary files
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.lb
+
+# latexmk
+*.fdb_latexmk
+
+# SyncTeX
+*.synctex
+*.synctex.gz
+*.synctex.gz(busy)
+
+# Bibliography
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+*-blx.aux
+*-blx.bib
+
+# BibTeX / Biber temporary files
+*.brf
+*.btaux
+
+# Beamer
+*.nav
+*.pre
+*.snm
+*.vrb
+
+# Glossaries
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.ist
+*.xdy
+
+# Index files
+*.idx
+*.ilg
+*.ind
+
+# Hyperref
+*.brf
+
+# Listings
+*.lol
+
+# nomencl
+*.nlo
+*.nls
+*.nlg
+
+# minted
+_minted*
+*.pyg
+*.pygtex
+
+# sagetex
+*.sagetex.sage
+*.sagetex.py
+*.sagetex.scmd
+
+# TikZ externalization
+*.dpth
+*.md5
+
+# Rubber
+*.rubbercache/
+
+# TeX4ht
+*.4ct
+*.4tc
+*.idv
+*.lg
+*.trc
+*.xref
+
+# xindy
+*.xdy
+
+# Miscellaneous generated TeX files
+*.bak
+*.sav
+*.tmp
+*.temp
+
+
+###############################################################################
+# Generated documents
+###############################################################################
+
+# Ignore generated PDFs by default
+*.pdf
+
+# If you want to keep the final CV PDF in Git, uncomment and adapt:
+!resume.pdf
+
+
+###############################################################################
+# Build directories
+###############################################################################
+
+build/
+out/
+output/
+dist/
+tmp/
+temp/
+
+# Common LaTeX build directories
+latex.out/
+latex-build/
+
+
+###############################################################################
+# Visual Studio Code
+###############################################################################
+
+.vscode/
+
+# Alternatively, if you want to share some VS Code settings,
+# remove ".vscode/" above and use:
+#
+# .vscode/*
+# !.vscode/settings.json
+# !.vscode/extensions.json
+# !.vscode/tasks.json
+
+
+###############################################################################
+# JetBrains IDEs
+###############################################################################
+
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+
+###############################################################################
+# Vim / Neovim
+###############################################################################
+
+*.swp
+*.swo
+*.swn
+*.swm
+*.swl
+*~
+.netrwhist
+Session.vim
+Sessionx.vim
+
+
+###############################################################################
+# Emacs
+###############################################################################
+
+*~
+\#*\#
+.\#*
+auto-save-list/
+tramp
+.projectile
+
+
+###############################################################################
+# Sublime Text
+###############################################################################
+
+*.sublime-workspace
+
+
+###############################################################################
+# TeX editors
+###############################################################################
+
+# TeXShop
+*.pdfsync
+*.synctex.gz
+
+# TeXnicCenter
+*.tps
+
+# Texmaker / TeXstudio
+*.txss
+*.txss2
+*.tks
+
+# Kile
+*.kilepr
+*.kilepr.gui
+
+
+###############################################################################
+# macOS
+###############################################################################
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two carriage returns
+Icon
+
+# Thumbnails
+._*
+
+# Files that may appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Network shares
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
+###############################################################################
+# Windows
+###############################################################################
+
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+
+# Recycle Bin
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+
+###############################################################################
+# Linux
+###############################################################################
+
+.directory
+.Trash-*
+.nfs*
+
+
+###############################################################################
+# Backup / temporary files
+###############################################################################
+
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+
+*.tmp
+*.temp
+*.cache
+
+*.lock
+*.pid
+
+.#*
+#*#
+
+
+###############################################################################
+# Archives
+###############################################################################
+
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+
+###############################################################################
+# Logs
+###############################################################################
+
+*.log
+logs/
