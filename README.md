@@ -1,5 +1,5 @@
 
-# LaTeX Resume Template
+# LaTeX Resume Template ([Preview here](/resume.pdf))
 
 A modular LaTeX resume template where configuration, reusable commands, and individual CV sections are split into separate files.
 
